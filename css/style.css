@@ -24,6 +24,10 @@
         --border-section: 2px dashed black;
     }
 
+    .bg-grey {
+        background-color: #D3D3D3;
+    }
+
 /* HEADER */
 
     header {
@@ -92,7 +96,7 @@
 
    /* Section one */
 
-   .section-one {
+   .section-small {
     display: flex;
     height: 350px;
     justify-content: center;
