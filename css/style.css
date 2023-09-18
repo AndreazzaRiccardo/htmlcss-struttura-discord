@@ -28,6 +28,13 @@
         background-color: #D3D3D3;
     }
 
+    hr {
+       
+       background-color: #D3D3D3;
+       height: 1px;
+       border: none;
+    }
+
 /* HEADER */
 
     header {
@@ -170,4 +177,26 @@
 
     /* Footer nav */
 
-    
+    .footer-nav-background {
+        background-color: #23272A;
+        height: 70px;
+        padding: 1em 7em 0;
+    }
+
+    .footer-nav {
+        background-color:#7FFFD4 ;
+        height: 100%;
+        display: flex;
+        padding: 1rem 0;
+        justify-content:space-between
+    }
+
+    .footer-button {
+        background-color: #FFB6C1;
+        min-height: 100%;
+        border: var(--border-section);
+        color: black;
+        text-align: center;
+        vertical-align: middle;
+        padding: 0 6px;
+    }
