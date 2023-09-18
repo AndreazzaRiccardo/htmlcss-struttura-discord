@@ -135,3 +135,39 @@
         border: var(--border-section);
     }
 
+/* FOOTER     */
+
+    /* Footer section */
+
+    .footer-box {
+        display: flex;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5em 7em 1em;
+        background-color: #23272A;
+    }
+
+    .small-column {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+
+    .big-square { 
+        background-color:#F08080 ;
+        width: 45%;
+        height: 100%;
+        border: var(--border-section);
+    }
+
+    .small-square {
+        background-color:#20B2AA ;
+        width: 55%;
+        height: 100%;
+        border: 2px dashed white;
+    }
+
+    /* Footer nav */
+
+    
