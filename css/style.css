@@ -82,7 +82,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    padding: 2em 9em;
+    padding: 1.5em 10em;
    } 
 
    .hero-image {
@@ -94,14 +94,14 @@
 
 /* MAIN */
 
-   /* Section one */
+   /* Small section */
 
-   .section-small {
+   .small-section {
     display: flex;
     height: 350px;
     justify-content: center;
     align-items: center;
-    padding: 2em 5em;
+    padding: 1.5em 7em;
    }
 
    .section-1-content-1 {
@@ -116,5 +116,22 @@
     min-height: 100%;
     min-width: 30%;
     border:var(--border-section) ;
+    }
+
+    /* Big section */
+
+    .big-section {
+        height: 500px;
+        padding: 1.5em 7em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square {
+        background-color: #228B22;
+        height: 100%;
+        width: 100%;
+        border: var(--border-section);
     }
 
